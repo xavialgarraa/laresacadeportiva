@@ -9,7 +9,7 @@ import PiedraPapelTijera from "../components/PiedraPapelTijera.jsx";
 
 
 const episodes = [
-  { id: "Vzay0bvSing", title: "Mercato II", date: "15/07/2025" },
+  { id: "NZ_uZo8E4OI", title: "La Resaca Deportiva | Fin de semana 27-28 septiembre 2025", date: "30/09/2025" },
   { id: "VZ7Zf7qQEAg", title: "Mercato – 1A Edición", date: "16/06/2025" },
   { id: "sabhcQm_n4g", title: "Episodio 12 – Semana 10-11 May", date: "14/05/2025" },
 ];
