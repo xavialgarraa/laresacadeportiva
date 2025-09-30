@@ -10,8 +10,8 @@ import PiedraPapelTijera from "../components/PiedraPapelTijera.jsx";
 
 const episodes = [
   { id: "NZ_uZo8E4OI", title: "La Resaca Deportiva | Fin de semana 27-28 septiembre 2025", date: "30/09/2025" },
-  { id: "VZ7Zf7qQEAg", title: "Mercato – 1A Edición", date: "16/06/2025" },
-  { id: "sabhcQm_n4g", title: "Episodio 12 – Semana 10-11 May", date: "14/05/2025" },
+  { id: "dXcZHsK9qeA&t", title: "La Resaca Deportiva | Fin de semana 20-21 septiembre 2025", date: "25/09/2025" },
+  { id: "=Vzay0bvSing", title: "MERCATO II (EDICIÓN CBU LLORET)", date: "28/07/2025" },
 ];
 
 import { collection, getDocs } from "firebase/firestore";
