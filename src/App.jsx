@@ -9,18 +9,12 @@ import { NoticiaForm } from "./pages/NoticiaForm";
 function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename="/laresacadeportiva">
+      <BrowserRouter>
         <Routes>
-          {/* Pàgina principal */}
           <Route path="/" element={<LaResacaDeportiva />} />
-
-          <Route path="/laresacadeportiva" element={<LaResacaDeportiva />} />
-          <Route path="noticia/:id" element={<Noticia />} />
-
+          <Route path="/noticia/:id" element={<Noticia />} />
           <Route path="/nueva" element={<NoticiaForm />} />
           <Route path="/editar/:id" element={<NoticiaForm />} />
-
-          {/* Ruta per 404 */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
