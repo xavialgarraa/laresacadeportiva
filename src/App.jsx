@@ -6,6 +6,8 @@ import { Noticia } from "./pages/Noticia";
 import { NoticiaForm } from "./pages/NoticiaForm";
 import { PrimeraCatalana } from "./pages/Prediccion1Cat";
 
+import Clasificaciones from './components/Clasificacion';
+import DetallePartido from './components/DetallePartido';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
           <Route path="/editar/:id" element={<NoticiaForm />} />
           <Route path="/primera-catalana" element={<PrimeraCatalana />} />
           <Route path="*" element={<NotFound />} />
+
+          <Route path="/clasificaciones" element={<Clasificaciones />} />
+          <Route path="/partido/:id" element={<DetallePartido />} />
+          
         </Routes>
       </BrowserRouter>
     </LanguageProvider>
