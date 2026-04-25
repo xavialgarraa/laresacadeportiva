@@ -2983,7 +2983,7 @@ body{background:#f0fdf4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
 @keyframes obsModalIn{from{opacity:0}to{opacity:1}}
 @keyframes obsModalUp{from{transform:translateY(20px);opacity:0}to{transform:translateY(0);opacity:1}}
 
-.obs-root{width:380px;background:linear-gradient(165deg,rgba(4,14,8,0.97) 0%,rgba(2,8,4,0.99) 100%);border:1px solid rgba(34,197,94,0.18);border-top:1.5px solid rgba(34,197,94,0.32);border-radius:14px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;box-shadow:0 0 80px rgba(34,197,94,0.07),0 0 0 1px rgba(255,255,255,0.02),0 28px 80px rgba(0,0,0,0.75);position:relative}
+.obs-root{width:100%;background:linear-gradient(165deg,rgba(4,14,8,0.97) 0%,rgba(2,8,4,0.99) 100%);border:1px solid rgba(34,197,94,0.18);border-top:1.5px solid rgba(34,197,94,0.32);border-radius:14px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;box-shadow:0 0 80px rgba(34,197,94,0.07),0 0 0 1px rgba(255,255,255,0.02),0 28px 80px rgba(0,0,0,0.75);position:relative}
 .obs-root--transparent{background:rgba(0,0,0,0.01)!important;border:none!important;box-shadow:none!important}
 .obs-root--transparent .obs-table-wrap{background:rgba(0,0,0,0.52)}
 .obs-root--transparent .obs-table td{border-color:rgba(255,255,255,.04)}
@@ -3067,7 +3067,7 @@ body{background:#f0fdf4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
 
 /* ── OBS MODAL ── */
 .obs-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.82);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px;animation:obsModalIn .2s ease}
-.obs-modal{background:linear-gradient(160deg,#0c1a0f,#080f0a);border:1px solid rgba(34,197,94,.16);border-top:1px solid rgba(34,197,94,.28);border-radius:16px;padding:24px;max-width:460px;width:100%;position:relative;box-shadow:0 24px 80px rgba(0,0,0,.92),0 0 80px rgba(34,197,94,.06),inset 0 1px 0 rgba(255,255,255,.04);animation:obsModalUp .25s ease}
+.obs-modal{background:linear-gradient(160deg,#0c1a0f,#080f0a);border:1px solid rgba(34,197,94,.16);border-top:1px solid rgba(34,197,94,.28);border-radius:16px;padding:24px;max-width:800px;width:100%;position:relative;box-shadow:0 24px 80px rgba(0,0,0,.92),0 0 80px rgba(34,197,94,.06),inset 0 1px 0 rgba(255,255,255,.04);animation:obsModalUp .25s ease}
 .obs-modal__close{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);color:rgba(255,255,255,.35);width:28px;height:28px;border-radius:6px;cursor:pointer;font-size:.85rem;display:flex;align-items:center;justify-content:center;transition:.15s}
 .obs-modal__close:hover{background:rgba(255,255,255,.12);color:#fff}
 .obs-modal__icon{font-size:1.5rem;margin-bottom:8px}
